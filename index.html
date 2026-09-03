@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Minseo Cho’s personal website for research, projects, ideas, and updates."
+    />
+    <meta name="theme-color" content="#0b1713" />
+    <title>Minseo Cho | Personal Webpage</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#home" aria-label="Minseo Cho, home">Minseo Cho</a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        data-menu-button
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="assets/Minseo_Cho_CV.pdf" target="_blank" rel="noreferrer">CV</a>
+        <a href="posts.html">Posts</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-backdrop" role="img" aria-label="Stanford University campus"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Computer Science</p>
+          <h1 id="hero-title">Minseo Cho</h1>
+          <p class="hero-pronunciation">
+            Pronounced “Minseo Jo” · you can call me MJ
+          </p>
+          <p class="hero-intro">
+            Hi there!👋<br />
+            This page is where I share my projects, ideas, and learning journey.<br />
+            Feedback and inquiries are always welcome! 😊
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#news">Updates</a>
+            <a class="text-link text-link-light" href="mailto:jms7180@cau.ac.kr">
+              Contact <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+          <span>Scroll</span>
+          <span class="scroll-line" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="section intro-section" id="about" aria-labelledby="about-title">
+        <div class="section-label reveal">01 / About</div>
+        <div class="intro-grid">
+          <div class="about-photo reveal">
+            <img src="assets/images/about.webp" alt="Portrait of Minseo Cho" />
+          </div>
+          <div class="intro-detail reveal">
+            <h2 class="sr-only" id="about-title">About</h2>
+            <p class="about-mantra">"Dream. Dare. Do."</p>
+            <p>
+              I’m a Computer Science student at Chung-Ang University, currently spending a semester
+              at Nanyang Technological University after studying at UC Berkeley as a visiting student.
+              I’m interested in 3D computer vision and robotics, and I’m especially
+              drawn to ambitious problems that call for new ideas, deep collaboration, and the courage
+              to explore what hasn’t been done before.
+
+
+            </p>
+            <p>
+              I’m always up for a new challenge, whether it’s in research or somewhere far outside
+              the classroom. I love traveling, meeting new people, and trying new things. I also
+              enjoy football, swimming, golf, and skiing.
+            </p>
+            <p>
+              On slower days, you might find me at a cozy café, enjoying brunch, a cup of coffee,
+              and a little warm sunlight.
+            </p>
+            <div class="interest-list" aria-label="Research interests">
+              <span>Embodied AI</span>
+              <span>3D Computer Vision</span>
+              <span>Vision-Language-Action Models</span>
+              <span>Robotics</span>
+            </div>
+            <div class="about-socials about-social-icons" aria-label="Contact and social links">
+  <!-- Email -->
+  <a href="mailto:jms7180@cau.ac.kr" aria-label="Email" title="Email">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M3 5h18v14H3V5Zm0 1 9 7 9-7"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a
+    href="https://www.linkedin.com/in/minseo-cho03"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="LinkedIn"
+    title="LinkedIn"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M5.2 3.5A2.2 2.2 0 1 1 .8 3.5a2.2 2.2 0 0 1 4.4 0ZM1.1 8h4.2v13.5H1.1V8Zm6.8 0h4v1.8h.1c.6-1.1 2-2.2 4.1-2.2 4.4 0 5.2 2.9 5.2 6.6v7.3h-4.2v-6.8c0-1.6 0-3.7-2.3-3.7s-2.6 1.8-2.6 3.6v6.9H7.9V8Z"
+      />
+    </svg>
+  </a>
+
+  <!-- GitHub -->
+  <a
+    href="https://github.com/MinseoCho03"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="GitHub"
+    title="GitHub"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M12 .5C5.7.5.5 5.7.5 12.2c0 5.1 3.4 9.5 8.2 11 .6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.3 1.8 1.3 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6.1 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.3 1.3a11.2 11.2 0 0 1 6 0c2.3-1.6 3.3-1.3 3.3-1.3.7 1.7.3 3 .1 3.3.8.9 1.2 2 1.2 3.3 0 4.7-2.8 5.8-5.5 6.1.4.4.8 1.1.8 2.3v3.3c0 .3.2.7.8.6a11.7 11.7 0 0 0 8.2-11C23.5 5.7 18.3.5 12 .5Z"
+      />
+    </svg>
+  </a>
+
+  <!-- Instagram -->
+  <a
+    href="https://instagram.com/_iamminseo_"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Instagram"
+    title="Instagram"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6Zm9.7 1.5A1.2 1.2 0 1 1 17.3 8a1.2 1.2 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+      />
+    </svg>
+  </a>
+</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section news-section" id="news" aria-labelledby="news-title">
+        <div class="news-heading reveal">
+          <div>
+            <div class="section-label">02 / Latest</div>
+            <h2 id="news-title">News &amp; Updates</h2>
+          </div>
+          <a class="text-link" href="#research">Selected work <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="news-list">
+          <article class="news-item reveal">
+            <time datetime="2026-08">Aug 2026</time>
+            <p>Started an exchange semester at <strong>Nanyang Technological University</strong> in Singapore.</p>
+          </article>
+          <article class="news-item reveal">
+            <time datetime="2026-06">Jun 2026</time>
+            <p>Began research internship at <strong>Spatial Intelligence Lab, CAU</strong>.</p>
+          </article>
+          <article class="news-item reveal">
+            <time datetime="2026-05">May 2026</time>
+            <p>Won <strong>1st place</strong> at a UC Berkeley Datathon.</p>
+          </article>
+          <article class="news-item reveal">
+            <time datetime="2026-02">Feb 2026</time>
+            <p>Selected as a <strong>Top 6 finalist</strong> at the Stanford × Google DeepMind Hackathon.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section credential-section" id="education" aria-labelledby="education-title">
+        <div class="credential-heading reveal">
+          <div class="section-label">03 / Education</div>
+          <h2 id="education-title">Education</h2>
+        </div>
+
+        <div class="credential-list">
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/cau.svg" alt="Chung-Ang University logo" />
+            </div>
+            <div>
+              <div class="credential-title-row">
+                <h3>Chung-Ang University</h3>
+                <time datetime="2022-03">Mar 2022 — Aug 2027 (Expected)</time>
+              </div>
+              <p class="role">B.S. in Computer Science and Engineering</p>
+              <p>GPA 4.22 / 4.5 · Major GPA 4.30 / 4.5 (Summa Cum Laude)</p>
+            </div>
+          </article>
+
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/ntu.svg" alt="Nanyang Technological University logo" />
+            </div>
+            <div>
+              <div class="credential-title-row">
+                <h3>Nanyang Technological University</h3>
+                <time datetime="2026-08">Aug 2026 — Dec 2026</time>
+              </div>
+              <p class="role">Exchange Student</p>
+              <p class="coursework"><strong>Coursework:</strong> Quantum Computing, Computer Vision, Natural Language Processing, Parallel Computing</p>
+            </div>
+          </article>
+
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/berkeley.svg" alt="University of California, Berkeley logo" />
+            </div>
+            <div>
+              <div class="credential-title-row">
+                <h3>University of California, Berkeley</h3>
+                <time datetime="2026-01">Jan 2026 — Jun 2026</time>
+              </div>
+              <p class="role">Visiting Student</p>
+              <p class="coursework"><strong>Coursework:</strong> Introduction to Artificial Intelligence, Models of Decision-Making from Brain to Behavior</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section credential-section" id="experience" aria-labelledby="experience-title">
+        <div class="credential-heading reveal">
+          <div class="section-label">04 / Experience</div>
+          <h2 id="experience-title">Research Experience</h2>
+        </div>
+
+        <div class="credential-list">
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/spatial-lab.svg" alt="Spatial Intelligence Lab logo" />
+            </div>
+            <div>
+              <div class="credential-title-row">
+                <h3>Spatial Intelligence Lab · Chung-Ang University</h3>
+                <time datetime="2026-06">Jun 2026 — Aug 2026</time>
+              </div>
+              <p class="role">Undergraduate Researcher</p>
+              <div class="experience-details">
+                <p><strong>Advisor:</strong> Prof. Jongmin Lee</p>
+                <p><strong>Research Focus:</strong> 3D Computer Vision, 6D Object Pose Estimation, Multi-View Geometry</p>
+                <p class="experience-website">
+                  <a
+                    class="text-link"
+                    href="https://bluedream1121.github.io/spatial-intelligence-lab/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Website <span aria-hidden="true">↗</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/multi-lab.svg" alt="MULTI Lab logo" />
+            </div>
+            <div>
+              <div class="credential-title-row">
+                <h3>MULTI Lab · Chung-Ang University</h3>
+                <time datetime="2024-08">Aug 2024 — Aug 2025</time>
+              </div>
+              <p class="role">Undergraduate Researcher</p>
+              <div class="experience-details">
+                <p><strong>Advisor:</strong> Prof. Bumsoo Kim</p>
+                <p><strong>Research Focus:</strong> Vision-Language Models, RAG, Whole Slide Image Analysis</p>
+                <p class="experience-website">
+                  <a
+                    class="text-link"
+                    href="https://wwwnante.multilab.cau.ac.kr/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Website <span aria-hidden="true">↗</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/snapl.svg" alt="Stanford Next Asia Policy Lab logo" />
+            </div>
+            <div>
+              <div class="credential-title-row">
+                <h3>Stanford Next Asia Policy Lab · Stanford University</h3>
+                <time datetime="2024-06">Jun 2024 — Aug 2024</time>
+              </div>
+              <p class="role">Visiting Researcher</p>
+              <div class="experience-details">
+                <p><strong>Director &amp; PI:</strong> Prof. Gi-Wook Shin</p>
+                <p class="experience-website">
+                  <a
+                    class="text-link"
+                    href="https://aparc.fsi.stanford.edu/snapl"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Website <span aria-hidden="true">↗</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading reveal">
+          <div>
+            <div class="section-label">05 / Selected work</div>
+            <h2 id="research-title">
+              Research <span class="mobile-title-line">&amp; Projects</span>
+            </h2>
+          </div>
+          <div class="section-heading-side">
+            <div class="section-heading-actions">
+              <a class="text-link" href="work.html">See more <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="publications.html">Publications <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Computer Vision · 2026</span>
+                <span class="status">Under Review</span>
+              </div>
+              <h3>Context Matters</h3>
+              <p class="project-subtitle">
+                Test-Time View Selection and Geometry Adaptation for Model-Free 6D Object Pose
+                Estimation
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>3D Vision</li>
+                <li>VGGT</li>
+                <li>6D Pose</li>
+                <li>LoRA</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Applied AI · 2025</span>
+              </div>
+              <h3>WING</h3>
+              <p class="project-subtitle">Weighted Investment News Graph</p>
+              <p>
+                An NLP system that retrieves finance news, analyzes sentiment, and maps weighted
+                relationships among market-moving keywords through an interactive graph.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>FastAPI</li>
+                <li>Finance BERT</li>
+                <li>Embeddings</li>
+                <li>React</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Data Science · 2026</span>
+                <span class="status">1st place</span>
+              </div>
+              <h3>UC Berkeley Datathon</h3>
+              <p class="project-subtitle">OECDash</p>
+              <p>
+                A team project that transformed an open-ended dataset into an actionable,
+                statistically grounded story, recognized with first place at UC Berkeley.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Data Analysis</li>
+                <li>Visualization</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section honors-section" id="honors" aria-labelledby="honors-title">
+        <div class="honors-heading reveal">
+          <div>
+            <div class="section-label">06 / Honors &amp; Awards</div>
+            <h2 id="honors-title">Honors &amp; Awards</h2>
+          </div>
+          <a class="text-link" href="honors.html">Full List <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="honors-list">
+          <article class="honor-item reveal">
+            <time datetime="2026-05">May 2026</time>
+            <div>
+              <h3>UC Berkeley SP-26 Data Case Competition</h3>
+              <p>1st Place · $250</p>
+            </div>
+          </article>
+          <article class="honor-item reveal">
+            <time datetime="2026-02">Feb 2026</time>
+            <div>
+              <h3>Stanford × Google DeepMind Hackathon</h3>
+              <p>Top 6 Finalist · $5,000</p>
+              <p>Place (Semi-Final), 5th Place (Final)</p>
+            </div>
+          </article>
+          <article class="honor-item reveal">
+            <time datetime="2025-10">Oct 2025 — Jul 2026</time>
+            <div>
+              <h3>Korea–U.S. Advanced Technologies Youth Scholar</h3>
+              <p>$10,000 · Ministry of Trade, Industry and Energy, Republic of Korea</p>
+            </div>
+          </article>
+          <article class="honor-item reveal">
+            <time datetime="2024-09">Sep 2024 — Present</time>
+            <div>
+              <h3>Next Generation Engineering Leader</h3>
+              <p>Young Engineers Honor Society · National Academy of Engineering of Korea</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+       <section
+        class="section credential-section"
+        id="activities"
+        aria-labelledby="activities-title"
+      >
+        <div class="credential-heading reveal">
+          <div class="section-label">07 / Activities</div>
+          <h2>Communities &amp; Affiliations</h2>
+        </div>
+
+        <div class="credential-list">
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/yehs.svg" alt="YEHS logo" />
+            </div>
+
+            <div>
+              <div class="credential-title-row">
+                <h3>Young Engineers Honor Society (YEHS)</h3>
+                <time datetime="2024-09">Sep 2024 — Present</time>
+              </div>
+
+              <p class="role">Member</p>
+              <p class="activity-description">
+                A nationwide community of engineering students affiliated with the
+                National Academy of Engineering of Korea.
+              </p>
+            </div>
+          </article>
+
+        <div class="credential-list">
+          <article class="credential-item reveal">
+            <div class="credential-logo">
+              <img src="assets/logos/cuai.svg" alt="CUAI logo" />
+            </div>
+
+            <div>
+              <div class="credential-title-row">
+                <h3>Chung-Ang University AI Association (CUAI)</h3>
+                <time>Jan 2023 — Aug 2025</time>
+              </div>
+
+              <p class="role">
+                Executive Board
+                <span class="role-period">· Jan 2024 — Aug 2025</span>
+              </p>
+
+              <p class="role">
+                Member
+                <span class="role-period">· Jan 2023 — Dec 2023</span>
+              </p>
+
+              <p class="activity-description">
+                Chung-Ang University’s academic society for artificial intelligence.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner reveal">
+          <p class="section-label">08 / Contact</p>
+          <h2 id="contact-title">Let’s create what the world needs next.</h2>
+          <p>
+            Always open to bold ideas, meaningful collaborations, and opportunities to build something that matters. 🤗
+          </p>
+          <a
+            class="email-button"
+            href="mailto:jms7180@cau.ac.kr"
+            aria-label="Email Minseo Cho at jms7180@cau.ac.kr"
+          >
+            Get in touch <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© Minseo Cho</p>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/minseo-cho03" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/MinseoCho03" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://instagram.com/_iamminseo_" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
