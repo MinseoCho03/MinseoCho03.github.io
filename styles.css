@@ -1491,3 +1491,34 @@ a {
     gap: 0.75rem;
   }
 }
+
+@media (min-width: 992px) {
+  
+  .hero h1 {
+    font-size: 4.5rem;
+  }
+
+  .news-heading h2 {
+    font-size: 2.25rem;
+  }
+
+  .credential-heading h2 {
+    font-size: 2.3rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.6rem;
+  }
+
+  .honors-heading h2 {
+    font-size: 2.3rem;
+  }
+
+  .subpage-intro h1 {
+    font-size: 2.75rem;
+  }
+
+  .contact-inner h2 {
+    font-size: 3.3rem;
+  }
+}
