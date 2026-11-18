@@ -1259,6 +1259,11 @@ a {
 
 @media (max-width: 760px) {
 
+  .hero-backdrop {
+    bottom: auto;
+    height: clamp(620px, 82svh, 820px);
+  }
+
   .hero,
   .hero-content {
     min-height: calc(clamp(620px, 82svh, 820px) - 113px);
@@ -1499,10 +1504,15 @@ a {
 }
 
 @media (min-width: 992px) {
+
+  .hero-content {
+    padding-bottom: calc(7rem - 76px);
+  }
+  
   .hero-actions {
     transform: translateY(20px);
   }
-  
+
   .hero h1 {
     font-size: 4.5rem;
   }
