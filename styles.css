@@ -1505,12 +1505,17 @@ a {
 
 @media (min-width: 992px) {
 
+  .hero,
   .hero-content {
-    padding-bottom: calc(7rem - 76px);
+    min-height: clamp(620px, 82svh, 820px);
+  }
+
+  .hero-backdrop {
+    background-position: 40% calc(50% + 38px);
   }
 
   .hero-actions {
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
 
   .hero h1 {
