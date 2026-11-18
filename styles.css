@@ -157,7 +157,7 @@ a {
 
 .hero {
   position: relative;
-  min-height: clamp(620px, 82svh, 820px);
+  min-height: calc(clamp(620px, 82svh, 820px) - 76px);
   overflow: hidden;
   color: var(--white);
   isolation: isolate;
@@ -186,7 +186,7 @@ a {
   flex-direction: column;
   justify-content: center;
   width: min(100%, var(--max));
-  min-height: clamp(620px, 82svh, 820px);
+  min-height: calc(clamp(620px, 82svh, 820px) - 76px);
   margin: 0 auto;
   padding: 6rem var(--pad) 7rem;
 }
