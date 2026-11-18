@@ -1546,3 +1546,16 @@ a {
     font-size: 3.3rem;
   }
 }
+
+
+.title-link {
+  display: inline-block;
+  margin-left: 0.3em;
+  font-size: 0.8em;
+  text-decoration: none;
+  transition: transform 180ms ease;
+}
+
+.title-link:hover {
+  transform: translateY(-2px);
+}
