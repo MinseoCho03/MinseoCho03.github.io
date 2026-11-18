@@ -1508,9 +1508,9 @@ a {
   .hero-content {
     padding-bottom: calc(7rem - 76px);
   }
-  
+
   .hero-actions {
-    transform: translateY(20px);
+    transform: translateY(50px);
   }
 
   .hero h1 {
