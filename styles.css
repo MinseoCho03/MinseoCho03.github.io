@@ -1258,6 +1258,12 @@ a {
 }
 
 @media (max-width: 760px) {
+
+  .hero,
+  .hero-content {
+    min-height: calc(clamp(620px, 82svh, 820px) - 113px);
+  }
+
   .hero-backdrop {
     background-position: 40% 50%;
   }
@@ -1275,7 +1281,7 @@ a {
   }
 
   .hero-content {
-  padding: 4rem var(--pad) 9rem;
+  padding: 4rem var(--pad) 5rem;
   }
 
   .hero-actions {
@@ -1493,6 +1499,9 @@ a {
 }
 
 @media (min-width: 992px) {
+  .hero-actions {
+    transform: translateY(20px);
+  }
   
   .hero h1 {
     font-size: 4.5rem;
