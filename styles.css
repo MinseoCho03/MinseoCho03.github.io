@@ -1266,7 +1266,7 @@ a {
 
   .hero,
   .hero-content {
-    min-height: calc(clamp(620px, 82svh, 820px) - 113px);
+    min-height: clamp(620px, 82svh, 820px);
   }
 
   .hero-backdrop {
