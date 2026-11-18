@@ -1507,11 +1507,11 @@ a {
 
   .hero,
   .hero-content {
-    min-height: clamp(620px, 82svh, 820px);
+    min-height: calc(clamp(620px, 82svh, 820px) - 38px); 
   }
 
   .hero-backdrop {
-    background-position: 40% calc(50% + 38px);
+    background-position: 40% calc(50% + 19px);
   }
 
   .hero-actions {
