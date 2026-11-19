@@ -1287,6 +1287,7 @@ a {
 
   .hero-content {
   padding: 4rem var(--pad) 5rem;
+  transform: translateY(38px);
   }
 
   .hero-actions {
