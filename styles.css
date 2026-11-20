@@ -1506,6 +1506,16 @@ a {
 
 @media (min-width: 992px) {
 
+
+  #activities {
+    margin-bottom: 3.5rem;            /* Affiliations 아래 여백: 지금 1.8rem */
+  }
+
+  .contact-section {
+    padding: 5.5rem var(--pad);       /* Contact 초록 위아래 여백: 지금 7rem */
+  }
+
+  
   .hero,
   .hero-content {
     min-height: calc(clamp(620px, 82svh, 820px) - 38px); 
