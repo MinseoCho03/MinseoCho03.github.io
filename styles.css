@@ -204,7 +204,7 @@ a {
 .hero h1 {
   max-width: 860px;
   margin: 0;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 5rem;
   font-weight: 750;
   line-height: 1.08;
@@ -1508,14 +1508,14 @@ a {
 
 
   #activities {
-    margin-bottom: 3.5rem;            /* Affiliations 아래 여백: 지금 1.8rem */
+    margin-bottom: 3.5rem;
   }
 
   .contact-section {
-    padding: 5.5rem var(--pad);       /* Contact 초록 위아래 여백: 지금 7rem */
+    padding: 5.5rem var(--pad);
   }
 
-  
+
   .hero,
   .hero-content {
     min-height: calc(clamp(620px, 82svh, 820px) - 38px); 
